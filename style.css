@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+4&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Serif 4", sans-serif;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+  background-image: url(media/image.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.navbar {
+  width: 88%;
+  margin: auto;
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  width: 140px;
+  cursor: pointer;
+}
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 15px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: rgb(61, 54, 54);
+  font-size: 19px;
+}
+.content {
+  width: 100%;
+  position: absolute;
+  top: 30%;
+  color: rgb(240, 232, 232);
+  font-size: 23px;
+}
+.left-col {
+  margin-left: 12%;
+}
+.left-col h1 {
+  font-size: 50px;
+  color: rgb(226, 226, 226);
+  line-height: 80px;
+  float: left;
+}
+.right-col {
+  float: right;
+  margin-right: 6%;
+  margin-top: 120px;
+  display: flex;
+  align-items: center;
+}
+.right-col p {
+  font-size: 20px;
+  color: rgb(65, 61, 61);
+  font-weight: 400;
+  margin-right: 15px;
+}
+#icon{
+    width: 75px;
+    cursor: pointer;
+
+}
